@@ -1,0 +1,72 @@
+.viewmusic{
+padding: 4%;
+}
+.profile{
+    border-radius: 50%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.profilename{
+    margin-top: 2%;
+}
+.profilename h2{
+    font-weight: bold;
+}
+.musicslider{
+    margin-top: 6%;
+}
+.musicone{
+    border-radius: 20px;
+    position: relative;
+}
+.playOn{
+float:right;
+margin-top: 20PX;
+font-size: xx-large;
+}
+.playmusic{
+  
+
+    color: black;
+  
+    border-radius: 25px;
+    position: absolute;
+   
+    width: 80%;
+    height: 30%;
+    padding-left: 6%;
+    // bottom: 0;
+  margin-top: -30%;
+    
+  
+  }
+  .musicdetails{margin-left: 15%;
+    margin-top: 6%;
+  }
+  .musicdetail{
+    border-radius: 25px;
+    float: left;
+margin-right: 10%;
+
+}
+.imagezoom{
+    transition: transform .2s;
+    
+
+  
+
+}
+.imagezoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.musicname{
+  
+    
+    padding-top: 10px;
+}
+.musicpicture{
+    margin-top: 30px;
+}
